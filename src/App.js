@@ -35,7 +35,6 @@ const App = () => {
 
   //Getting new expense value passed up
   const addExpenseHandler = (expense) => {
-    //console.log(expense);
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
     });
